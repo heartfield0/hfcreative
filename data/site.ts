@@ -251,6 +251,10 @@ export const caseStudies: CaseStudy[] = [
     role: "AI Ad Creative Specialist",
     tools: ["Canva", "CapCut", "ElevenLabs", "AI Image/Video Generation"],
     publishedOn: "Jun 27, 2026",
+    link: {
+      label: "Watch the Ad on Drive",
+      url: "https://drive.google.com/file/d/1cL9gSdoJXIFdsZj_YyEM2ljIXx6sreoZ/view?usp=drive_link",
+    },
     challenge:
       "The brand needed UGC-style creative for a beard-growth serum without a UGC creator on retainer, and needed it fast enough to keep pace with a weekly testing cadence.",
     research:
@@ -286,8 +290,8 @@ export const caseStudies: CaseStudy[] = [
     tools: ["Canva", "Figma"],
     publishedOn: "Mar 29, 2026",
     link: {
-      label: "Watch a Sample on Drive",
-      url: "https://drive.google.com/file/d/1cL9gSdoJXIFdsZj_YyEM2ljIXx6sreoZ/view?usp=drive_link",
+      label: "View Full Ad Set on Drive",
+      url: "https://drive.google.com/drive/folders/1ONCPjxhvtClciMDlLJvw4TgF4UUCy4gG?usp=drive_link",
     },
     challenge:
       "The client's media buyer needed a continuous supply of fresh static creative — over 100 variations a week — to keep multiple test campaigns from going stale.",
@@ -324,8 +328,8 @@ export const caseStudies: CaseStudy[] = [
     tools: ["Canva", "CapCut", "AI Image Generation"],
     publishedOn: "Nov 30, 2025",
     link: {
-      label: "View Full Ad Set on Drive",
-      url: "https://drive.google.com/drive/folders/1ONCPjxhvtClciMDlLJvw4TgF4UUCy4gG?usp=drive_link",
+      label: "View Project on Upwork",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1994961732258119680",
     },
     challenge:
       "The brand's existing ads looked polished but weren't converting — a sign the message, not the visuals, was the problem.",
@@ -362,7 +366,7 @@ export const caseStudies: CaseStudy[] = [
     tools: ["Canva", "Figma"],
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1994961732258119680",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032695611820920832",
     },
     challenge:
       "The brand was leaning on a single ad design with no read on which angle actually earned clicks — engagement and CTR had plateaued.",
@@ -398,7 +402,7 @@ export const caseStudies: CaseStudy[] = [
     tools: ["Canva", "CapCut"],
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032695611820920832",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1992114209286864896",
     },
     challenge:
       "The supplement brand needed promo creative that could stand out in a category crowded with near-identical before/after claims.",
@@ -435,7 +439,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Dec 28, 2025",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1992114209286864896",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2004961645977128960",
     },
     challenge:
       "Traditional-looking ads were getting tuned out by an audience that scrolls past anything that reads as an obvious promotion.",
@@ -472,7 +476,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Dec 28, 2025",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2004961645977128960",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2004963726666010624",
     },
     challenge:
       "The brand wanted authentic-feeling talking-head UGC video without booking and coordinating real creators for every batch.",
@@ -509,7 +513,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Mar 14, 2026",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2004963726666010624",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032693972731191296",
     },
     challenge:
       "Straight promotional ads were losing credibility in a wellness category where audiences are naturally skeptical of hard-sell claims.",
@@ -546,7 +550,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Mar 14, 2026",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032693972731191296",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032692729876893696",
     },
     challenge:
       "The app needed to demonstrate a fast, abstract benefit — 'capture ideas quickly' — inside a short-form format that can't afford a slow explanation.",
@@ -583,7 +587,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Dec 13, 2025",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032692729876893696",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1999858773011353600",
     },
     challenge:
       "Carousel ads are easy to make forgettable — inconsistent branding across slides and no clear reason to keep swiping.",
@@ -620,7 +624,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Mar 14, 2026",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=1999858773011353600",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032690033398931456",
     },
     challenge:
       "Auriona's Evening Calm supplement needed ad creative that could make an invisible problem — an overactive nervous system at night — feel immediately recognizable.",
@@ -657,7 +661,7 @@ export const caseStudies: CaseStudy[] = [
     publishedOn: "Mar 14, 2026",
     link: {
       label: "View Project on Upwork",
-      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032690033398931456",
+      url: "https://www.upwork.com/freelancers/~01bcae5f9a1ed98580?p=2032696889823485952",
     },
     challenge:
       "The brand needed high-quality fashion marketing visuals without the cost and lead time of a traditional photoshoot.",
