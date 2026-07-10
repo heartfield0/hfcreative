@@ -25,6 +25,10 @@ export interface CaseStudy {
   client: string;
   category: string;
   year: string;
+  role?: string;
+  tools?: string[];
+  publishedOn?: string;
+  link?: { label: string; url: string };
   challenge: string;
   research: string;
   strategy: string;

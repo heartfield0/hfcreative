@@ -43,6 +43,7 @@ export function MagneticLink({
 
   const Component = as === "button" ? "button" : "a";
   const isHashLink = as === "a" && href?.startsWith("#");
+  const isExternal = as === "a" && /^https?:\/\//.test(href ?? "");
 
   const handleClick = (e: React.MouseEvent) => {
     if (isHashLink && href) {
@@ -56,6 +57,8 @@ export function MagneticLink({
     <Component
       ref={ref as never}
       href={as === "a" ? href : undefined}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
       onClick={handleClick}
       data-cursor="link"
       onMouseMove={onMouseMove}

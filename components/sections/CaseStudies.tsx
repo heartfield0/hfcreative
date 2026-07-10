@@ -39,7 +39,22 @@ function CaseStudyBlock({ study, index }: { study: CaseStudy; index: number }) {
         <div className="mt-6 flex flex-wrap gap-x-10 gap-y-2 text-xs uppercase tracking-[0.15em] text-muted">
           <span>{study.client}</span>
           <span>{study.year}</span>
+          {study.role && <span>{study.role}</span>}
+          {study.publishedOn && <span>Published {study.publishedOn}</span>}
         </div>
+
+        {study.tools && study.tools.length > 0 && (
+          <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2">
+            {study.tools.map((tool) => (
+              <li
+                key={tool}
+                className="rounded-full border border-border px-3 py-1 text-xs uppercase tracking-[0.1em] text-muted"
+              >
+                {tool}
+              </li>
+            ))}
+          </ul>
+        )}
 
         <div>
           <Field label="Challenge">{study.challenge}</Field>
@@ -87,6 +102,15 @@ function CaseStudyBlock({ study, index }: { study: CaseStudy; index: number }) {
               Gallery
             </h3>
             <FrameGrid count={study.gallery} />
+            {study.link && (
+              <MagneticLink
+                href={study.link.url}
+                className="mt-6 inline-flex items-center gap-3 rounded-full border border-border px-5 py-2.5 text-xs uppercase tracking-[0.15em] transition-colors hover:border-fg"
+              >
+                {study.link.label}
+                <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
+              </MagneticLink>
+            )}
           </Reveal>
         </div>
 
