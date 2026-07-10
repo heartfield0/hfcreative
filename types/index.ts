@@ -29,6 +29,7 @@ export interface CaseStudy {
   tools?: string[];
   publishedOn?: string;
   link?: { label: string; url: string };
+  images?: string[];
   challenge: string;
   research: string;
   strategy: string;

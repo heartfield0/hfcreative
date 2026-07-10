@@ -101,7 +101,7 @@ function CaseStudyBlock({ study, index }: { study: CaseStudy; index: number }) {
             <h3 className="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-muted">
               Gallery
             </h3>
-            <FrameGrid count={study.gallery} />
+            <FrameGrid count={study.gallery} images={study.images} />
             {study.link && (
               <MagneticLink
                 href={study.link.url}
