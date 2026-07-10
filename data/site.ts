@@ -251,7 +251,6 @@ export const caseStudies: CaseStudy[] = [
     role: "AI Ad Creative Specialist",
     tools: ["Canva", "CapCut", "ElevenLabs", "AI Image/Video Generation"],
     publishedOn: "Jun 27, 2026",
-    images: ["/work/beard-growth-ugc/1.png"],
     challenge:
       "The brand needed UGC-style creative for a beard-growth serum without a UGC creator on retainer, and needed it fast enough to keep pace with a weekly testing cadence.",
     research:

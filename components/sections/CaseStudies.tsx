@@ -4,6 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { FrameGrid } from "@/components/ui/FrameGrid";
 import { MagneticLink } from "@/components/ui/MagneticLink";
 import { caseStudies } from "@/data/site";
+import { getWorkImages } from "@/lib/work-images";
 import type { CaseStudy } from "@/types";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -20,6 +21,9 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 }
 
 function CaseStudyBlock({ study, index }: { study: CaseStudy; index: number }) {
+  const images = getWorkImages(study.id);
+  const frameCount = Math.max(study.gallery, images.length);
+
   return (
     <article
       id={`case-${study.id}`}
@@ -101,7 +105,7 @@ function CaseStudyBlock({ study, index }: { study: CaseStudy; index: number }) {
             <h3 className="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-muted">
               Gallery
             </h3>
-            <FrameGrid count={study.gallery} images={study.images} />
+            <FrameGrid count={frameCount} images={images} />
             {study.link && (
               <MagneticLink
                 href={study.link.url}
