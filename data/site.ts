@@ -6,6 +6,7 @@ import type {
   Stat,
   TechItem,
   Testimonial,
+  WorkFormat,
   WorkItem,
 } from "@/types";
 
@@ -142,11 +143,20 @@ export const processSteps: ProcessStep[] = [
   },
 ];
 
+/** Filter tabs shown above the Selected Work grid, in display order. */
+export const workFormats: { id: WorkFormat; label: string }[] = [
+  { id: "ugc", label: "UGC Video" },
+  { id: "animation", label: "Animation" },
+  { id: "static", label: "Static Ads" },
+  { id: "photo", label: "AI Photography" },
+];
+
 export const workItems: WorkItem[] = [
   {
     id: "radixa-daily-beets",
     title: "Realistic AI UGC Testimonials for Radixa Daily Beets",
     category: "AI UGC / Video",
+    format: "ugc",
     year: "2026",
     summary:
       "Three AI UGC testimonial videos with distinct customer avatars, directed to feel like real people, not AI.",
@@ -155,6 +165,7 @@ export const workItems: WorkItem[] = [
     id: "radixa-ai-selfie-shots",
     title: "AI Selfie-with-Product Photos for Radixa Daily Beets",
     category: "AI Photography / UGC-Style",
+    format: "photo",
     year: "2026",
     summary:
       "Realistic customer selfies with the product, complete with skin pores and phone-camera softness, built for landing pages.",
@@ -163,6 +174,7 @@ export const workItems: WorkItem[] = [
     id: "radixa-ai-product-shots",
     title: "AI Lifestyle Product Shots for Radixa Daily Beets",
     category: "AI Photography / Product",
+    format: "photo",
     year: "2026",
     summary:
       "Everyday lifestyle product photos for landing pages, produced through an automated AI pipeline for fast turnaround.",
@@ -171,6 +183,7 @@ export const workItems: WorkItem[] = [
     id: "pixar-style-animated-ad",
     title: "3D Pixar-Style Animated Ad for a Men's Wellness Brand",
     category: "AI Video / 3D Animation",
+    format: "animation",
     year: "2026",
     summary:
       "An emotional, Pixar-style story ad that turns a sensitive problem into a character a couple can face together.",
@@ -179,6 +192,7 @@ export const workItems: WorkItem[] = [
     id: "claymation-couple-story",
     title: "AI Claymation Story Ad on Couple Connection",
     category: "AI Video / Claymation",
+    format: "animation",
     year: "2026",
     summary:
       "A handcrafted-looking claymation story about a couple drifting apart on their phones and finding their way back.",
@@ -187,6 +201,7 @@ export const workItems: WorkItem[] = [
     id: "fruit-animation-hook-ads",
     title: "Viral-Style Fruit Animation Ads with Whisper Voiceover",
     category: "AI Video / Performance Ads",
+    format: "animation",
     year: "2026",
     summary:
       "Playful, hook-first fruit character ads with a whispered storytelling voiceover, built to stop the scroll and drive performance.",
@@ -195,6 +210,7 @@ export const workItems: WorkItem[] = [
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
+    format: "ugc",
     year: "2026",
     summary:
       "A story-led AI UGC ad built to carry a beard-growth serum's promise through a believable, native-feeling narrative.",
@@ -203,6 +219,7 @@ export const workItems: WorkItem[] = [
     id: "high-volume-meta",
     title: "High-Volume Meta Ad Creatives",
     category: "Static / Batch Production",
+    format: "static",
     year: "2026",
     summary:
       "100+ static ad variations produced weekly for an e-commerce brand's continuous testing pipeline.",
@@ -211,6 +228,7 @@ export const workItems: WorkItem[] = [
     id: "scroll-stopping-static",
     title: "Scroll-Stopping Static Ads for E-Commerce",
     category: "Creative Strategy / Static",
+    format: "static",
     year: "2025–2026",
     summary:
       "Angle-driven static ad concepts for a DTC brand, built around customer belief shifts rather than templates.",
@@ -219,6 +237,7 @@ export const workItems: WorkItem[] = [
     id: "sunglasses-testing-angles",
     title: "High-CTR Sunglasses Ad Creatives",
     category: "Creative Strategy / Static",
+    format: "static",
     year: "2026",
     summary:
       "Four parallel creative angles for a sunglasses brand, built to let performance data pick the winner.",
@@ -227,6 +246,7 @@ export const workItems: WorkItem[] = [
     id: "promo-static-supplement",
     title: "High-Converting Promo & Static Ads",
     category: "Static / Promotional",
+    format: "static",
     year: "2025–2026",
     summary:
       "Transformation and reaction-driven promo creative for an e-commerce supplement brand.",
@@ -235,6 +255,7 @@ export const workItems: WorkItem[] = [
     id: "native-style-realistic-models",
     title: "Native-Style Ads with Realistic Models",
     category: "AI Creative / Native Ads",
+    format: "static",
     year: "2025–2026",
     summary:
       "AI-generated lifestyle models and natural product integration, built to blend into the feed.",
@@ -243,6 +264,7 @@ export const workItems: WorkItem[] = [
     id: "talking-head-ai-avatar",
     title: "Talking-Head AI Avatar Ads",
     category: "AI Video / UGC-Style",
+    format: "ugc",
     year: "2025–2026",
     summary:
       "AI avatar talking-head video ads built to replicate authentic, trust-building UGC content.",
@@ -251,6 +273,7 @@ export const workItems: WorkItem[] = [
     id: "advertorial-wellness",
     title: "Advertorial-Style Ad for Health & Wellness",
     category: "Creative Strategy / Advertorial",
+    format: "static",
     year: "2025–2026",
     summary:
       "Editorial-style ad creative built to earn trust in a skeptical wellness category.",
@@ -259,6 +282,7 @@ export const workItems: WorkItem[] = [
     id: "tiktok-productivity-app",
     title: "TikTok UGC Ad for a Productivity App",
     category: "AI UGC / App Demo",
+    format: "ugc",
     year: "2025–2026",
     summary:
       "AI avatar review paired with a live screen recording to prove the app's core benefit.",
@@ -267,6 +291,7 @@ export const workItems: WorkItem[] = [
     id: "branded-carousels",
     title: "High-Converting Branded Carousel Designs",
     category: "Graphic Design / Carousel Ads",
+    format: "static",
     year: "2025–2026",
     summary:
       "A repeatable, hook-first carousel system built to keep the swipe going card to card.",
@@ -275,6 +300,7 @@ export const workItems: WorkItem[] = [
     id: "auriona-evening-calm",
     title: "Auriona Evening Calm — AI UGC Meta Ads",
     category: "AI UGC / Video",
+    format: "ugc",
     year: "2025–2026",
     summary:
       "A relatable-nighttime-struggle narrative built for a sleep and wellness supplement brand.",
@@ -283,6 +309,7 @@ export const workItems: WorkItem[] = [
     id: "streetwear-ai-fashion",
     title: "AI-Generated Fashion Ads for a Streetwear Brand",
     category: "AI Creative / Fashion",
+    format: "photo",
     year: "2025–2026",
     summary:
       "Photoshoot-free fashion marketing visuals using realistic AI-generated lifestyle models.",

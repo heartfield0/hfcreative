@@ -11,10 +11,13 @@ export interface ProcessStep {
   description: string;
 }
 
+export type WorkFormat = "ugc" | "animation" | "static" | "photo";
+
 export interface WorkItem {
   id: string;
   title: string;
   category: string;
+  format: WorkFormat;
   year: string;
   summary: string;
 }

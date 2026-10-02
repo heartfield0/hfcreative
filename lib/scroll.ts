@@ -12,12 +12,20 @@ export function setLenisInstance(instance: Lenis | null) {
  * so in-page navigation never desyncs from Lenis's own scroll state.
  * Falls back to native smooth scrolling (e.g. under reduced motion).
  */
-export function scrollToTarget(target: string | HTMLElement) {
+export function scrollToTarget(
+  target: string | HTMLElement | number,
+  { immediate = false }: { immediate?: boolean } = {}
+) {
   if (lenisInstance) {
-    lenisInstance.scrollTo(target, { duration: 1.2 });
+    lenisInstance.scrollTo(target, immediate ? { immediate: true } : { duration: 1.2 });
+    return;
+  }
+  const behavior = immediate ? "instant" : "smooth";
+  if (typeof target === "number") {
+    window.scrollTo({ top: target, behavior });
     return;
   }
   const el =
     typeof target === "string" ? document.querySelector(target) : target;
-  el?.scrollIntoView({ behavior: "smooth" });
+  el?.scrollIntoView({ behavior });
 }

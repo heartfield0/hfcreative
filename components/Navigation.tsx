@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { MagneticLink } from "@/components/ui/MagneticLink";
 import { scrollToTarget } from "@/lib/scroll";
 import { cn } from "@/lib/utils";
@@ -23,6 +24,8 @@ export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState<string>("");
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -32,6 +35,11 @@ export function Navigation() {
   }, []);
 
   useEffect(() => {
+    if (pathname !== "/") {
+      setActive("");
+      return;
+    }
+
     const sections = links
       .map((l) => document.getElementById(l.id))
       .filter((el): el is HTMLElement => Boolean(el));
@@ -47,10 +55,16 @@ export function Navigation() {
 
     sections.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   const scrollTo = (id: string) => {
     setMenuOpen(false);
+    // Sections only exist on the homepage; from a case study page, go back
+    // home and let HashScroll land on the section.
+    if (pathname !== "/") {
+      router.push(id === "hero" ? "/" : `/#${id}`);
+      return;
+    }
     scrollToTarget(`#${id}`);
   };
 
