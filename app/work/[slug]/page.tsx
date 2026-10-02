@@ -55,7 +55,9 @@ export default async function CaseStudyPage({ params }: { params: Params }) {
   if (index === -1) notFound();
 
   const study = caseStudies[index];
-  const summary = workItems.find((w) => w.id === slug)?.summary;
+  const work = workItems.find((w) => w.id === slug);
+  const summary = work?.summary;
+  const isVideo = work?.format === "ugc" || work?.format === "animation";
   const images = getWorkImages(study.id);
   const prev = caseStudies[(index - 1 + caseStudies.length) % caseStudies.length];
   const next = caseStudies[(index + 1) % caseStudies.length];
@@ -116,7 +118,7 @@ export default async function CaseStudyPage({ params }: { params: Params }) {
             data-cursor="link"
             className="mt-10 inline-flex items-center gap-3 rounded-full bg-fg px-6 py-3 text-xs font-medium uppercase tracking-[0.15em] text-bg transition-opacity hover:opacity-80"
           >
-            <Play aria-hidden="true" className="h-4 w-4" />
+            {isVideo && <Play aria-hidden="true" className="h-4 w-4" />}
             {study.link.label}
             <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
           </a>
