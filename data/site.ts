@@ -399,6 +399,10 @@ export const caseStudies: CaseStudy[] = [
     year: "2026",
     role: "AI Ad Creative Specialist",
     tools: ["Higgsfield", "Seedance 2.5", "ChatGPT Image Generation", "CapCut"],
+    link: {
+      label: "Watch the Ad on Drive",
+      url: "https://drive.google.com/file/d/1tz2yz_PasG-xP4k1jff3pOTTgKam-A1Z/view?usp=drive_link",
+    },
     challenge:
       "STAYR sells a men's wellness product for a problem most couples find hard to talk about. Direct, clinical ads feel uncomfortable, so the brand needed a way to address the topic with warmth instead of embarrassment.",
     research:
@@ -432,6 +436,10 @@ export const caseStudies: CaseStudy[] = [
     year: "2026",
     role: "AI Ad Creative Specialist",
     tools: ["Higgsfield", "Seedance 2.5", "ChatGPT Image Generation", "CapCut"],
+    link: {
+      label: "Watch the Ad on Drive",
+      url: "https://drive.google.com/file/d/1oXkAd4EdmLE9evs8rd-geN0zblmOtDMH/view?usp=drive_link",
+    },
     challenge:
       "The brand needed an ad about emotional distance in relationships that would feel warm and relatable, not preachy, and stand out in a feed full of live-action ads.",
     research:
