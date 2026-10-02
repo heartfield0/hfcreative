@@ -168,6 +168,14 @@ export const workItems: WorkItem[] = [
       "Everyday lifestyle product photos for landing pages, produced through an automated AI pipeline for fast turnaround.",
   },
   {
+    id: "stayr-3d-animated-ad",
+    title: "3D Pixar-Style Animated Ad for STAYR",
+    category: "AI Video / 3D Animation",
+    year: "2026",
+    summary:
+      "An emotional, Pixar-style story ad that turns a sensitive problem into a character a couple can face together.",
+  },
+  {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
@@ -373,6 +381,39 @@ export const caseStudies: CaseStudy[] = [
     ],
     lessonsLearned:
       "A product shot feels real when the scene looks lived in. Small, ordinary details make the product look like part of someone's day, not an ad.",
+    gallery: 3,
+  },
+  {
+    id: "stayr-3d-animated-ad",
+    title: "3D Pixar-Style Animated Ad for STAYR",
+    client: "Men's Wellness Brand",
+    category: "AI Video / 3D Animation",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Higgsfield", "Seedance 2.5", "ChatGPT Image Generation", "CapCut"],
+    challenge:
+      "STAYR sells a men's wellness product for a problem most couples find hard to talk about. Direct, clinical ads feel uncomfortable, so the brand needed a way to address the topic with warmth instead of embarrassment.",
+    research:
+      "Focused on the emotional side of the problem: the distance and quiet frustration it creates between partners, and the feeling that it's a personal failure rather than something solvable.",
+    strategy:
+      "Personified the problem as a grumpy furry monster sitting between the couple on the couch. That separates the issue from the people, so the message becomes that the problem was never between them, and the product is what removes it.",
+    creativeDirection:
+      "Chose a 3D Pixar-style animated look to make a sensitive subject approachable and emotional. The story moves from tension, with the couple sitting apart and the monster in the middle, to the man holding the product, to the couple close together again with the closing line \"The problem was never between you.\"",
+    execution:
+      "Created the key frames with ChatGPT image generation, animated them with Higgsfield and Seedance 2.5, and compiled the final cut in CapCut with light editing to bring out the emotion of each beat.",
+    deliverables: [
+      "3D Pixar-style animated video ad",
+      "Consistent animated characters across every scene",
+      "Story arc from problem to product to resolution",
+      "Closing text overlay with the brand message",
+    ],
+    results: [
+      "Turned a sensitive, hard-to-advertise topic into a warm, story-driven ad",
+      "Delivered a full animated ad without a traditional 3D animation team",
+      "Consistent characters and product across every scene",
+    ],
+    lessonsLearned:
+      "When a topic is sensitive, a character can say what a person can't. Giving the problem a face made the ad emotional instead of awkward.",
     gallery: 3,
   },
   {
