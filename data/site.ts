@@ -176,6 +176,14 @@ export const workItems: WorkItem[] = [
       "An emotional, Pixar-style story ad that turns a sensitive problem into a character a couple can face together.",
   },
   {
+    id: "claymation-couple-story",
+    title: "AI Claymation Story Ad on Couple Connection",
+    category: "AI Video / Claymation",
+    year: "2026",
+    summary:
+      "A handcrafted-looking claymation story about a couple drifting apart on their phones and finding their way back.",
+  },
+  {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
@@ -414,6 +422,38 @@ export const caseStudies: CaseStudy[] = [
     ],
     lessonsLearned:
       "When a topic is sensitive, a character can say what a person can't. Giving the problem a face made the ad emotional instead of awkward.",
+    gallery: 3,
+  },
+  {
+    id: "claymation-couple-story",
+    title: "AI Claymation Story Ad on Couple Connection",
+    client: "Relationship & Wellness Brand",
+    category: "AI Video / Claymation",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Higgsfield", "Seedance 2.5", "ChatGPT Image Generation", "CapCut"],
+    challenge:
+      "The brand needed an ad about emotional distance in relationships that would feel warm and relatable, not preachy, and stand out in a feed full of live-action ads.",
+    research:
+      "Built the story around a moment almost every couple recognizes: sitting side by side on the couch, both scrolling their phones, together but not really connected.",
+    strategy:
+      "Told the message as a short three-beat story instead of stating it: disconnection, the moment one partner notices, and reconnection. Viewers see themselves in it before any message is spoken.",
+    creativeDirection:
+      "Chose a claymation look for its handmade warmth and charm. Soft evening light, a cozy living room, knit sweaters and small expressive faces carry the emotion, from the wide shot of the couple lost in their phones to the close-up of them holding hands and smiling again.",
+    execution:
+      "Created the key frames with ChatGPT image generation, animated them with Higgsfield and Seedance 2.5, and compiled the final cut in CapCut with light editing to bring out the emotion of each beat.",
+    deliverables: [
+      "AI claymation-style animated video ad",
+      "Consistent clay characters and set across every scene",
+      "Three-beat story arc from disconnection to reconnection",
+    ],
+    results: [
+      "Delivered a claymation-style ad without physical sets or stop-motion production",
+      "Kept the characters, set and handmade clay look consistent across every scene",
+      "A warm, scroll-stopping style that stands apart from live-action ads",
+    ],
+    lessonsLearned:
+      "A distinctive visual style earns attention, but the story keeps it. Claymation made people stop scrolling; the familiar couch moment made them stay.",
     gallery: 3,
   },
   {
