@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { caseStudies } from "@/data/site";
 
-const siteUrl = "https://heartfieldlamadrid.com";
+const siteUrl = "https://www.hfcreatives.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
