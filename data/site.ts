@@ -152,6 +152,22 @@ export const workItems: WorkItem[] = [
       "Three AI UGC testimonial videos with distinct customer avatars, directed to feel like real people, not AI.",
   },
   {
+    id: "radixa-ai-selfie-shots",
+    title: "AI Selfie-with-Product Photos for Radixa Daily Beets",
+    category: "AI Photography / UGC-Style",
+    year: "2026",
+    summary:
+      "Realistic customer selfies with the product, complete with skin pores and phone-camera softness, built for landing pages.",
+  },
+  {
+    id: "radixa-ai-product-shots",
+    title: "AI Lifestyle Product Shots for Radixa Daily Beets",
+    category: "AI Photography / Product",
+    year: "2026",
+    summary:
+      "Everyday lifestyle product photos for landing pages, produced through an automated AI pipeline for fast turnaround.",
+  },
+  {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
@@ -285,6 +301,78 @@ export const caseStudies: CaseStudy[] = [
     ],
     lessonsLearned:
       "Realism in AI UGC lives in the small details: how a hand holds the bottle, a slightly uneven smile, a voice that pauses like a real person. Directing those details by hand is what makes the content feel human.",
+    gallery: 3,
+  },
+  {
+    id: "radixa-ai-selfie-shots",
+    title: "AI Selfie-with-Product Photos for Radixa Daily Beets",
+    client: "Health & Wellness Supplement Brand",
+    category: "AI Photography / UGC-Style",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Google Labs Flow", "Higgsfield", "Automation Workflow"],
+    link: {
+      label: "View the Selfie Shots on Drive",
+      url: "https://drive.google.com/drive/folders/1EYUp20wMvPtHMU3AKWXW8tNP01_t5KdP?usp=drive_link",
+    },
+    challenge:
+      "Landing pages convert better with photos of real-looking customers holding the product, but organizing shoots with real customers is slow and expensive. The client needed believable customer photos, delivered fast.",
+    research:
+      "Studied what makes a customer photo feel genuine instead of staged: front-camera framing, everyday home backgrounds, natural skin texture with visible pores, and the slight softness of a phone camera.",
+    strategy:
+      "Built a set of distinct, relatable customer personas who match the brand's audience, each photographed in their own everyday setting. Together they read as social proof rather than a single model.",
+    creativeDirection:
+      "Directed every image as a casual selfie: arm's-length framing, the bottle held naturally toward the camera with the label readable, warm genuine smiles, and lived-in homes, kitchens and backyards. Imperfections were kept on purpose, because flawless skin and studio lighting are what give AI away.",
+    execution:
+      "Generated the images with Google Labs Flow and Higgsfield, run through an automated workflow so new personas and variations can be produced quickly whenever the client asks.",
+    deliverables: [
+      "Realistic AI selfie-with-product photos across multiple customer personas",
+      "Consistent, readable product label in every shot",
+      "Landing-page-ready images in vertical format",
+    ],
+    results: [
+      "Fast turnaround on client requests through an automated generation workflow",
+      "Realistic, phone-camera-style photos with natural skin texture",
+      "A reusable persona set for future landing pages and ads",
+    ],
+    lessonsLearned:
+      "For landing-page photos, perfect is the enemy of believable. Pores, slight blur and an ordinary background do more for trust than any amount of polish.",
+    gallery: 4,
+  },
+  {
+    id: "radixa-ai-product-shots",
+    title: "AI Lifestyle Product Shots for Radixa Daily Beets",
+    client: "Health & Wellness Supplement Brand",
+    category: "AI Photography / Product",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Google Labs Flow", "Higgsfield", "Automation Workflow"],
+    link: {
+      label: "View the Product Shots on Drive",
+      url: "https://drive.google.com/drive/folders/1kuHnnE_dUgagR7Q8jMCE8SOct_NiB_N7?usp=drive_link",
+    },
+    challenge:
+      "The brand needed lifestyle product photos for its landing pages that show the supplement as part of an everyday routine, without the cost and scheduling of a traditional product photoshoot.",
+    research:
+      "Looked at the daily moments where the audience would actually take a supplement, such as breakfast, the work desk and a home workout, and at how real phone photos of those moments look.",
+    strategy:
+      "Placed the product inside believable daily-routine scenes so visitors picture it in their own day. Each scene ties the product to a different habit: morning nutrition, focus at work, and staying active.",
+    creativeDirection:
+      "Styled every scene with natural window light, real clutter like crumbs, notebooks and a used towel, and casual phone-camera angles. The bottle stays the clear focal point with its label readable, while the setting does the storytelling.",
+    execution:
+      "Generated the images with Google Labs Flow and Higgsfield, run through an automated workflow so new scenes and variations can be delivered quickly whenever the client needs them.",
+    deliverables: [
+      "AI lifestyle product photos across multiple everyday scenes",
+      "Consistent, accurate product appearance in every shot",
+      "Landing-page-ready images in vertical format",
+    ],
+    results: [
+      "Fast turnaround on client requests through an automated generation workflow",
+      "Realistic, natural-looking product scenes without a physical photoshoot",
+      "A repeatable process for producing new scenes on demand",
+    ],
+    lessonsLearned:
+      "A product shot feels real when the scene looks lived in. Small, ordinary details make the product look like part of someone's day, not an ad.",
     gallery: 3,
   },
   {
