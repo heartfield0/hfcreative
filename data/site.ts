@@ -168,8 +168,8 @@ export const workItems: WorkItem[] = [
       "Everyday lifestyle product photos for landing pages, produced through an automated AI pipeline for fast turnaround.",
   },
   {
-    id: "stayr-3d-animated-ad",
-    title: "3D Pixar-Style Animated Ad for STAYR",
+    id: "pixar-style-animated-ad",
+    title: "3D Pixar-Style Animated Ad for a Men's Wellness Brand",
     category: "AI Video / 3D Animation",
     year: "2026",
     summary:
@@ -400,8 +400,8 @@ export const caseStudies: CaseStudy[] = [
     gallery: 3,
   },
   {
-    id: "stayr-3d-animated-ad",
-    title: "3D Pixar-Style Animated Ad for STAYR",
+    id: "pixar-style-animated-ad",
+    title: "3D Pixar-Style Animated Ad for a Men's Wellness Brand",
     client: "Men's Wellness Brand",
     category: "AI Video / 3D Animation",
     year: "2026",
@@ -412,7 +412,7 @@ export const caseStudies: CaseStudy[] = [
       url: "https://drive.google.com/file/d/1tz2yz_PasG-xP4k1jff3pOTTgKam-A1Z/view?usp=drive_link",
     },
     challenge:
-      "STAYR sells a men's wellness product for a problem most couples find hard to talk about. Direct, clinical ads feel uncomfortable, so the brand needed a way to address the topic with warmth instead of embarrassment.",
+      "The brand sells a men's wellness product for a problem most couples find hard to talk about. Direct, clinical ads feel uncomfortable, so the brand needed a way to address the topic with warmth instead of embarrassment.",
     research:
       "Focused on the emotional side of the problem: the distance and quiet frustration it creates between partners, and the feeling that it's a personal failure rather than something solvable.",
     strategy:
