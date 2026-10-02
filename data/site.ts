@@ -144,6 +144,14 @@ export const processSteps: ProcessStep[] = [
 
 export const workItems: WorkItem[] = [
   {
+    id: "radixa-daily-beets",
+    title: "Realistic AI UGC Testimonials for Radixa Daily Beets",
+    category: "AI UGC / Video",
+    year: "2026",
+    summary:
+      "Three AI UGC testimonial videos with distinct customer avatars, directed to feel like real people, not AI.",
+  },
+  {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
@@ -242,6 +250,43 @@ export const workItems: WorkItem[] = [
 ];
 
 export const caseStudies: CaseStudy[] = [
+  {
+    id: "radixa-daily-beets",
+    title: "Realistic AI UGC Testimonials for Radixa Daily Beets",
+    client: "Health & Wellness Supplement Brand",
+    category: "AI UGC / Video Ad",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Higgsfield", "ElevenLabs", "CapCut"],
+    link: {
+      label: "View the Project on Drive",
+      url: "https://drive.google.com/file/d/1c0S3VJPli8XzsiFwx4oyBc3oc5Aa4jEF/view?usp=drive_link",
+    },
+    challenge:
+      "Radixa needed testimonial-style video for its Daily Beets supplement that felt like real customers talking, not AI. Generated faces, stiff hands and over-polished voices are what usually give AI UGC away.",
+    research:
+      "Broke down what makes a real customer testimonial believable: small facial expressions, imperfect hand movement, casual handling of the product, and a conversational delivery that doesn't sound scripted.",
+    strategy:
+      "Rather than a single spokesperson, the concept used several distinct customer avatars, each in their own home setting. That makes the product feel adopted by different kinds of people, while the product presentation stays consistent across every video.",
+    creativeDirection:
+      "Wrote detailed prompts for natural facial expressions, body language, hand movements and realistic interactions with the bottle. Voice direction was tuned for a relaxed, human tone instead of a polished ad read.",
+    execution:
+      "Generated each avatar video in Higgsfield, built the voiceovers in ElevenLabs, and finished editing and pacing in CapCut so every cut reads like a native, phone-shot testimonial.",
+    deliverables: [
+      "3 AI UGC testimonial videos, each with a different customer avatar",
+      "ElevenLabs AI voiceover for each video",
+      "Natural, consistent product interactions across all three",
+      "Final edited versions ready for social media advertising",
+    ],
+    results: [
+      "Delivered three realistic testimonial creatives with distinct customer personas",
+      "Kept product presentation consistent across every avatar",
+      "Held a natural UGC look throughout, without the usual AI tells",
+    ],
+    lessonsLearned:
+      "Realism in AI UGC lives in the small details: how a hand holds the bottle, a slightly uneven smile, a voice that pauses like a real person. Directing those details by hand is what makes the content feel human.",
+    gallery: 3,
+  },
   {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
