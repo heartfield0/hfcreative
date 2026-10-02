@@ -184,6 +184,14 @@ export const workItems: WorkItem[] = [
       "A handcrafted-looking claymation story about a couple drifting apart on their phones and finding their way back.",
   },
   {
+    id: "fruit-animation-hook-ads",
+    title: "Viral-Style Fruit Animation Ads with Whisper Voiceover",
+    category: "AI Video / Performance Ads",
+    year: "2026",
+    summary:
+      "Playful, hook-first fruit character ads with a whispered storytelling voiceover, built to stop the scroll and drive performance.",
+  },
+  {
     id: "beard-growth-ugc",
     title: "AI UGC Storytelling Ad for Beard Growth Serum",
     category: "AI UGC / Video",
@@ -462,6 +470,43 @@ export const caseStudies: CaseStudy[] = [
     ],
     lessonsLearned:
       "A distinctive visual style earns attention, but the story keeps it. Claymation made people stop scrolling; the familiar couch moment made them stay.",
+    gallery: 3,
+  },
+  {
+    id: "fruit-animation-hook-ads",
+    title: "Viral-Style Fruit Animation Ads with Whisper Voiceover",
+    client: "Men's Wellness Brand",
+    category: "AI Video / Performance Ads",
+    year: "2026",
+    role: "AI Ad Creative Specialist",
+    tools: ["Higgsfield", "Seedance 2.5", "Google Labs Flow", "ElevenLabs", "CapCut"],
+    link: {
+      label: "Watch the Ads on Drive",
+      url: "https://drive.google.com/drive/folders/10gVFRsXNhRAcfHQJoQ5LFH6k-dE6Bw2r?usp=drive_link",
+    },
+    challenge:
+      "The brand sells an intimate men's wellness product, a category where direct ads get ignored or restricted. It needed performance creative that grabs attention fast and talks about the product's effect playfully, without being explicit.",
+    research:
+      "Looked at the fruit-character animation trend on TikTok and Reels, where cheeky, story-driven fruit videos earn high watch time and shares, and at how curiosity hooks pull viewers into the first seconds.",
+    strategy:
+      "Opened with a curiosity hook in the first frame (\"Giving my husband this ring, gone wrong.\"), then let animated fruit characters tell the story. A whispered female voiceover runs through the whole video, sharing how the product changed her man in a confessional, story-time tone, without ever saying the brand name. The ad feels like content, not a sales pitch.",
+    creativeDirection:
+      "Cast cheeky fruit characters in a stylized 3D animated look, set in warm, intimate lamp-lit bedroom and living-room scenes. Word-by-word captions keep the story readable with the sound off, while the whisper pulls in viewers who have it on.",
+    execution:
+      "Generated scenes with Google Labs Flow, animated them with Higgsfield and Seedance 2.5, created the whispered voiceover in ElevenLabs, and edited the hook, pacing and captions in CapCut.",
+    deliverables: [
+      "Fruit character animation video ads built for performance",
+      "Scroll-stopping curiosity hook opening",
+      "Whispered ElevenLabs voiceover throughout",
+      "Word-by-word captions for silent autoplay",
+    ],
+    results: [
+      "Turned a sensitive product into playful, shareable content",
+      "Told the product story without naming the brand, so it reads as organic content",
+      "A repeatable hook-plus-whisper format for future ad variations",
+    ],
+    lessonsLearned:
+      "On sensitive products, curiosity beats claims. A strong hook, playful characters and a whispered story say more than a product pitch ever could.",
     gallery: 3,
   },
   {
